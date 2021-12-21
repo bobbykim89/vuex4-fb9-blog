@@ -34,7 +34,6 @@ export default {
     const store = useStore();
 
     console.log(store.state.user);
-    store.commit('setUser', 'Josh');
     return {
       blogs,
     };
